@@ -1,12 +1,12 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk">
   <PropertyGroup>
-    <TargetFrameworks>net452;netcoreapp3.1</TargetFrameworks>
+    <TargetFramework>netstandard2.0</TargetFramework>
     <AssemblyTitle>MscVersion</AssemblyTitle>
     <Company>Westgate Cyber Security Limited</Company>
     <Product>MscVersion</Product>
     <Description>Helps you check if the Microsoft Visual C++ Runtime is installed. A C# alternative to the _MSC_VER macro in C++</Description>
     <Copyright>Copyright 2019</Copyright>
-    <Version>1.0.0.6</Version>
+    <Version>2.0.0.0</Version>
     <Authors>Westgate Cyber Security Limited</Authors>
     <PackageProjectUrl>https://github.com/enclave-networks/MscVersion/</PackageProjectUrl>
     <PackageTags>_MSC_VER VC++</PackageTags>
