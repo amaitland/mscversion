@@ -5,6 +5,7 @@
         // ReSharper disable InconsistentNaming
         x86,
         x64,
-        IA64
+        IA64,
+        arm64
     }
 }

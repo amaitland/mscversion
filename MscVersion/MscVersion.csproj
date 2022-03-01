@@ -1,6 +1,6 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk">
   <PropertyGroup>
-    <TargetFramework>net45</TargetFramework>
+    <TargetFrameworks>net452;netcoreapp3.1</TargetFrameworks>
     <AssemblyTitle>MscVersion</AssemblyTitle>
     <Company>Westgate Cyber Security Limited</Company>
     <Product>MscVersion</Product>
@@ -11,7 +11,7 @@
     <PackageProjectUrl>https://github.com/enclave-networks/MscVersion/</PackageProjectUrl>
     <PackageTags>_MSC_VER VC++</PackageTags>
     <PackageLicenseExpression>MIT</PackageLicenseExpression>
-    <GeneratePackageOnBuild  Condition="'$(Configuration)' == 'Release'">true</GeneratePackageOnBuild>
+    <GeneratePackageOnBuild Condition="'$(Configuration)' == 'Release'">true</GeneratePackageOnBuild>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)' == 'Debug'">
     <DebugType>full</DebugType>
